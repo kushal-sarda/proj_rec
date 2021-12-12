@@ -1,0 +1,318 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
+body{
+    font-family: Arial, sans-serif;
+    background-color: #010408;
+ }
+/* h1,
+li,
+a, */
+
+.navbar{
+    /* background-color: #756213;
+background-image: linear-gradient(315deg, #756213 0%, #000000 74%); */
+
+background-color: #182b3a;
+background-image: linear-gradient(315deg, rgb(12, 12, 121) 0%,  black  74%);
+
+  /* background-image: linear-gradient(90deg,#000000 0%, #04619f 89%); */
+}
+/* .navbar-toggler{
+  background-color: #000000;
+  background-image: linear-gradient(90deg,#000000 0%, #04619f 89%);
+} */
+/* .navbar-toggler{
+  width: 47px;
+  height: 34px;
+ 
+  border:none;
+} */
+/* .navbar-toggler .line{
+  width: 100%;
+  float: left;
+  height: 2px;
+  background-color: #fff;
+  margin-bottom: 5px;
+} */
+/* .navbar-toggler-icon{
+
+  color:white !important;
+} */
+.nav-item{
+ 
+  color: black !important;
+}
+.nav-item:hover{
+  background-color: #182b3a;
+background-image: linear-gradient(315deg, #20a4f3 0%,  #b4dbf8 74%);
+  color: white !important;
+}
+/* button {
+  font-family: "Montserrat", san-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffff;
+  text-decoration: none;
+}
+
+
+h1 {
+  font-size: 2rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+ 
+  align-items: center;
+  padding: 30px 10%;
+  background-color: #030033;
+  width: 100%;
+}
+
+.logo {
+  color: #ffffff;
+
+  cursor: pointer;
+}
+
+.nav_links {
+  list-style: none;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+  color: #0088a9;
+}
+
+button {
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border-radius: 50px;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+} */
+
+/* Dropdown Button */
+/* .dropdown{
+    float: right;
+} */
+/* .dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  } */
+  
+  /* Dropdown button on hover & focus */
+  /* .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  } */
+  
+  /* The container <div> - needed to position the dropdown content */
+  /* .dropdown {
+    position: relative;
+    display: inline-block;
+  } */
+  
+  /* Dropdown Content (Hidden by Default) */
+  /* .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  } */
+  
+  /* Links inside the dropdown */
+  /* .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  } */
+  
+  /* Change color of dropdown links on hover */
+  /* .dropdown-content a:hover {background-color: #ddd}
+   */
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+  /* .upper{
+    background-color: inherit;
+    border-style: none;
+    margin-top: 4vw;
+    margin-bottom: 1vw;
+  } */
+  .main-title{
+    
+    color: white;
+    font-size: 32px;
+    /* font-size:50px ; */
+    
+    
+  }
+  .main-subtitle{
+    color:white;
+    text-decoration: underline;
+    
+  }
+
+
+#homeImg {
+  width:100%;
+
+}
+.title {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color:white;
+
+  }
+  
+  .title:hover {
+    
+    cursor: pointer;
+    color: whitesmoke;
+  }
+
+   .header-extradiv {
+    margin-top:30px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    /* background-color: silver;
+  background-image: linear-gradient(90deg silver,rgb(233, 131, 131)); */
+  } 
+  
+  .extra-div {
+    background-color: #182b3a;
+background-image: linear-gradient(315deg, rgb(12, 12, 121) 0%,  black  74%);
+
+    border: medium none;
+    padding: 20px !important;
+    border: 2px;
+    width: auto;
+    border-radius: 10px;
+    transition: 0.2s;
+    color: #fff;
+   
+  }
+  .sp-between{
+    margin-top: 4px !important;
+    margin-bottom: 4px !important;
+  } 
+  .extra-div:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    transform: translateX(-20px);
+  }
+  .copy{
+      color:white;
+  }
+
+
+ /* CSS FOR TIMELINE OR WORKS */
+
+
+ ul, li {
+    list-style: none;
+    padding: 0;
+}
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    /* background: linear-gradient(45deg, #3ca1f3, #68e0cf); */
+    padding: 3rem 0;
+}
+
+.wrapper {
+    /* background: #eaf6ff; */
+    
+    padding: 2rem;
+    border-radius: 15px;
+    background-color: #182b3a;
+    background-image: linear-gradient(315deg, rgb(12, 12, 121) 0%,  black  74%);
+    
+}
+h1 {
+    font-size: 1.1rem;
+    font-family: sans-serif;
+}
+.active{
+    color: gray;
+}
+.sessions {
+    margin-top: 2rem;
+    border-radius: 12px;
+    position: relative;
+}
+.sessions li {
+    padding-bottom: 1.5rem;
+    border-left: 1px solid #abaaed;
+    position: relative;
+    padding-left: 20px;
+    margin-left: 10px;
+}
+.sessions li:last-child {
+    border: 0px;
+    padding-bottom: 0;
+}
+.sessions li:before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    background: white;
+    border: 1px solid #4e5ed3;
+    box-shadow: 3px 3px 0px #bab5f8;
+    box-shadow: 3px 3px 0px #bab5f8;
+    border-radius: 50%;
+    position: absolute;
+    left: -10px;
+    top: 0px;
+}
+.time {
+  color:rgba(206, 203, 203, 0.993);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+@media screen and (min-width: 601px) {
+    .time {
+        font-size: 0.9rem;
+   }
+}
+@media screen and (max-width: 600px) {
+    .time {
+        margin-bottom: 0.3rem;
+        font-size: 0.85rem;
+   }
+}
+/* p {
+    color: #4f4f4f;
+    font-family: sans-serif;
+    line-height: 1.5;
+    margin-top: 0.4rem;
+} */
+@media screen and (max-width: 600px) {
+    p {
+        font-size: 0.9rem;
+   }
+}
+
+.col-md-3 col-lg-2 col-xl-2 mx-auto mt-3 p  a{
+  text-decoration:none!important; 
+}
